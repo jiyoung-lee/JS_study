@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Tab_menu</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/TabMenu.css">
 </head>
 <body>
     <h1>여행지 설명</h1>
@@ -36,7 +36,7 @@
             const el = document.querySelector(selector);
             const liEls = el.querySelectorAll('ul li');
             const tabContentEl = el.querySelector('.tab_content');
-            const firstTabEl = liEls.item(0).firstTabElementChild
+            const firstTabEl = liEls.item(0).firstElementChild
 
             function activate(target) {
                 const hash = target.hash;

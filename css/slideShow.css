@@ -1,0 +1,53 @@
+body {
+  width: 60rem;
+  margin: 0 auto;
+}
+.slider {
+  width: 63rem;
+  position: relative;  
+}
+.item-wrapper {
+  overflow: scroll;
+  position: relative;
+  white-space: nowrap;
+  transition: all 0.3s ease-in-out;
+}
+.item {
+  display: inline-block;
+  margin-right:1rem;
+	margin-left: 0;
+	background: white; 
+	border: 1px solid #ddd;
+}
+.item:last-child {
+  margin-right: 0;
+}
+.item img {
+  width: 20rem;
+  height: 20rem;
+}
+.title {
+  padding: 0.2rem 2rem;
+}
+.slider-btn-wrapper-left {
+	left: -2rem;
+}
+.slider-btn-wrapper-right {
+	right: -1rem;
+}
+.slider-btn-wrapper {
+  width: 2rem;
+  position: absolute;
+  top: 40%;
+  z-index: 1;
+}
+.slider-btn {
+  border: 1px solid #ddd;
+  cursor: pointer;
+  display: block;
+  font-size: 2rem;
+}
+.slider-btn svg{
+  width: 8rem;
+  height: 8rem;
+} 
